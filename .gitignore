@@ -1,0 +1,11 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+AGENTS.md
+.DS_Store
+**/.DS_Store
+.codex-backups/
+Rakefile
+docker-compose.yml

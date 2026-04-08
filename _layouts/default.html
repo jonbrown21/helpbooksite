@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include seo-head.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="{% if page.body_class %}{{ page.body_class }}{% endif %}">
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}">
+          <span class="theme-icon brand-icon">
+            <img class="icon-light" src="{{ site.icon_light | relative_url }}" alt="Helpbook Builder app icon">
+            <img class="icon-dark" src="{{ site.icon_dark | relative_url }}" alt="Helpbook Builder app icon">
+          </span>
+          <span class="brand-text">Helpbook Builder</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="site-nav">
+          <a href="{{ '/' | relative_url }}#pricing">Pricing</a>
+          <a href="{{ '/' | relative_url }}#features">Features</a>
+          <a href="{{ '/' | relative_url }}#workflow">Workflow</a>
+          <a href="{{ '/guide/' | relative_url }}">Guide</a>
+          <a href="#" class="btn btn-sm">Download</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      {% if page.url != '/' and page.hide_breadcrumbs != true %}
+      <div class="container">
+        {% include breadcrumbs.html %}
+      </div>
+      {% endif %}
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© {{ "now" | date: "%Y" }} Helpbook Builder | A <a href="https://jonbrown.org" target="_blank" rel="noopener noreferrer">Jon Brown</a> project</p>
+        <div class="footer-links">
+          <a href="{{ '/guide/' | relative_url }}">Documentation</a>
+          <a href="{{ '/roadmap/' | relative_url }}">Roadmap</a>
+          <a href="{{ '/changelog/' | relative_url }}">Changelog</a>
+          <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+          <a href="mailto:hello@helpbookbuilder.com">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>
