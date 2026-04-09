@@ -2,26 +2,12 @@
 layout: null
 permalink: robots.txt
 ---
-# filter pages and documents for the noindex key
-{% assign noindexPages = site.pages | where: 'sitemap', false %}
-{% assign noindexDocuments = site.documents | where: 'sitemap', false %}
 Sitemap: https://helpbookbuilder.com/sitemap.xml
 User-agent: *
-# robotstxt.org - if _config production variable is false robots will be disallowed.
-{% if site.production != true %}
-  Disallow:
-{% else %}
-  # Error utility endpoints should not be crawled as content pages.
-  Disallow: /403
-  Disallow: /500
-  {% if noindexDocuments or noindexPages %}
-    {% for node in noindexPages %}
-      Disallow: {{ node.url }}
-    {% endfor %}
-    {% for node in noindexDocuments %}
-      Disallow: {{ node.url }}
-    {% endfor %}
-  {% else %}
-    Disallow:
-  {% endif %}
-{% endif %}
+Allow: /
+# Error utility endpoints should not be crawled as content pages.
+Disallow: /403
+Disallow: /404
+Disallow: /404.html
+Disallow: /500
+Disallow: /500.html
