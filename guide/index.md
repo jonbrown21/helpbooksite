@@ -14,7 +14,7 @@ title: Helpbook Builder Guide
         <div>
           <p class="guide-app-name"><span>Helpbook</span><span>Builder</span></p>
         </div>
-        <p class="guide-app-version">v0.1.0</p>
+        <p class="guide-app-version">v0.1.3</p>
         <button class="guide-nav-toggle" type="button" aria-expanded="false" aria-controls="guide-nav">
           <span></span><span></span><span></span>
         </button>

@@ -196,7 +196,7 @@ h1 {
 
 .lead {
   color: var(--text-soft);
-  max-width: 62ch;
+  max-width: 162ch;
 }
 
 .hero-actions {
@@ -227,6 +227,10 @@ h1 {
 .btn:hover {
   background: var(--brand-strong);
   border-color: var(--brand-strong);
+}
+
+.site-nav a.btn:hover {
+  color: #fff;
 }
 
 .btn-sm {
@@ -970,7 +974,7 @@ h2 {
 
 .roadmap-item {
   position: relative;
-  margin-left: 44px;
+  margin-left: 43px;
   background: #ffffff;
   border: 1px solid var(--line);
   border-radius: var(--radius);
