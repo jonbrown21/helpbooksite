@@ -10,7 +10,7 @@ title: Build Better macOS Help Books
       <h1>Craft polished Apple Help Books without touching brittle build scripts.</h1>
       <p class="lead">Helpbook Builder gives your app team a visual workflow to compose, preview, and export production-ready Help Books for macOS apps.</p>
       <div class="hero-actions">
-        <a href="#" class="btn">Download for macOS</a>
+        <a href="https://apps.apple.com/app/helpbook-builder/id6760924271" class="btn">Download for macOS</a>
         <a href="{{ '/guide/' | relative_url }}" class="btn btn-ghost">Browse the guide</a>
       </div>
     </div>
@@ -171,8 +171,8 @@ title: Build Better macOS Help Books
   <div class="container release-notes-wrap">
     <div class="release-notes-cta">
       <div>
-        <p class="eyebrow">Latest Release Notes</p>
-        <h2>Version 0.1.0 is live with live preview, auto-translate and export features.</h2>
+        <p class="eyebrow">Version 0.1.3</p>
+        <h2>Features live preview, auto-translate with AI and export to html, pdf and macOS helpbook formats for XCode.</h2>
         <p class="lead">Initial release of Helpbook Builder introduces project creation, pages and sections across all languages, an advanced WYSIWYG editor, AI translation, and exporting capabilities.</p>
       </div>
       <a href="{{ '/changelog/' | relative_url }}" class="btn">Read Release Notes</a>
@@ -198,7 +198,7 @@ title: Build Better macOS Help Books
           <li>Export to helpbook bundle only</li>
           <li>Use of all custom themes</li>
         </ul>
-        <a href="#" class="btn pricing-btn">Get Free</a>
+        <a href="https://apps.apple.com/app/helpbook-builder/id6760924271" class="btn pricing-btn">Get Free</a>
       </article>
       <article class="pricing-tier pricing-tier-featured">
         <h3>$5.99/mo</h3>
@@ -210,7 +210,7 @@ title: Build Better macOS Help Books
           <li>Auto-import of pages across languages</li>
           <li>Auto-translation using AI models</li>
         </ul>
-        <a href="#" class="btn pricing-btn">Upgrade in App</a>
+        <a href="https://apps.apple.com/app/helpbook-builder/id6760924271" class="btn pricing-btn">Upgrade in App</a>
       </article>
     </div>
   </div>
@@ -220,6 +220,6 @@ title: Build Better macOS Help Books
   <div class="cta-inner">
     <h2>Ship your next macOS help system faster.</h2>
     <p>Build once, ship everywhere: Helpbook, PDF, and web.</p>
-    <a href="#" class="btn cta-app-btn">Get the app</a>
+    <a href="https://apps.apple.com/app/helpbook-builder/id6760924271" class="btn cta-app-btn">Get the app</a>
   </div>
 </section>

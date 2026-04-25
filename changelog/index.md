@@ -21,15 +21,18 @@ hide_breadcrumbs: true
   <div class="container changelog-list">
     <article class="changelog-item">
       <header>
-        <h2>0.1.0</h2>
-        <p class="changelog-meta">April 7, 2026</p>
+        <h2>0.1.3</h2>
+        <p class="changelog-meta">April 25, 2026</p>
       </header>
       <ul>
-        <li>Initial release of Helpbook Builder with helpbook project creation</li>
-        <li>Create pages and sections across all supported languages</li>
-        <li>Advanced layout workflow with custom WYSIWYG editor</li>
-        <li>Built-in AI translation support and export capabilities</li>
-      </ul>
+		  <li>Visual Help Book authoring with live editing</li>
+		  <li>Structured page and section organization</li>
+		  <li>Multi-language localization workflow</li>
+		  <li>One-click export to macOS Help Book bundles</li>
+		  <li>Additional export targets for Website and PDF</li>
+		  <li>Theme support for consistent branded output</li>
+		  <li>Built-in options for required Help metadata and assets</li>
+	  </ul>
     </article>
   </div>
 </section>
